@@ -30,6 +30,7 @@ namespace BoostLogger
 		{
 		case trivial::trace:
 			strm << "\033[37m";
+			break;
 		case trivial::debug:
 			strm << "\033[36m";
 			break;

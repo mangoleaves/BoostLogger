@@ -15,4 +15,5 @@ int main(int argc, char* argv[])
 		BOOST_LOG_SEV(lg, trivial::debug) << "debug.";
 		BOOST_LOG_SEV(lg, trivial::fatal) << "fatal.";
 	}
+	BOOST_LOG_SEV(lg, trivial::trace) << "trace.";
 }
